@@ -92,12 +92,10 @@ submitBtnFive.addEventListener('click', () => {
     finalScore.textContent = `Congrats you got ${score} points!`
 })
 
-
-
 // Restart
 resetBtn.addEventListener('click', function() {
     score = 0
-    scoreEl.textContent = "Score: 0"
+    scoreEl.textContent = "Score: 0/5"
     questionNumber.textContent = `Question #1`
     container.style.display = "flex"
     containerTwo.style.display = "none"
